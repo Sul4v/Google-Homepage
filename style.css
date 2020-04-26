@@ -1,0 +1,253 @@
+ /* Roboto */ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Josephin Sans */ @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+/* Open Sans */ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* Lato */ @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+/* Global Selectors */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span:hover{
+    cursor: default;
+}
+
+
+/********** Top Bar **********/
+
+.top-section{
+    width: 100%;
+    height: 8vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+
+.top-section > *{
+    margin: 1rem;   
+}
+
+.top-section > *:hover{
+    cursor: pointer;
+}
+
+.top-section h3:hover{
+    text-decoration: underline;
+} 
+
+.menu-container i{
+    color: #737373;
+    font-size: 1.2rem;
+}
+
+.menu-container i:hover{
+    color: #000000;
+}
+
+
+
+.user-tag{
+    background: orange;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+/*****X***** Top Bar *****X*****/
+
+/********** Main Section **********/
+
+
+.main-section{
+    height: 80vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.main-section .container{
+    padding-top: 6rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-section .container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.main-section .container h1 span{
+    display: inline-block;
+}
+
+.word-g{
+    color: #4285F4;
+}
+
+#word-o{
+    color: #EA4335;
+}
+
+#word-second-o{
+    color: #FABD3B;
+}
+
+#word-l{
+    color: #48A853;
+}
+
+#word-e{
+    color: #EA4335;
+}
+
+.search-area{
+    padding: 1.4rem 0 2.6rem 0; 
+    color: #99A0A6;
+    font-size: 1rem;
+    position: relative;
+}
+
+.search-area .search-icon{
+    position: absolute;
+    top: 2.15rem;
+    left: 1rem;
+}
+
+.search-area .mic-icon{
+    position: absolute;
+    top: 2.15rem;
+    right: 1rem;
+}
+
+.search-area .search-box{
+    width: 35rem;
+    height: 2.5rem;
+    border: 1px #E6E8EB solid;
+    border-radius: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-area .search-box:hover{
+    box-shadow: 0 0 1.2rem 0.02rem #E6E8EB;
+}
+
+.search-area .search-box input{
+    width: 30rem;
+    height: 2.2rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.search-area input:focus{
+    outline: none;
+    
+}
+
+#text p a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background: #f3f3f3;
+    padding: 0.7rem 1rem;
+    margin: 0 0.3rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: #5E6367;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.88rem;  
+}
+
+.button{
+    margin-bottom: 2rem;
+}
+
+.button button:hover{
+    cursor: pointer;
+    border: 1px #c8cacc solid;
+    color: rgb(0,0,0);
+}
+
+#text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.8rem;
+}
+
+#text p a{
+    color: #595BB3;
+}
+
+/*****X***** Main Section *****X*****/
+
+
+/********** Bottom Section **********/
+
+.bottom-section{
+    width: 100%;
+    height: 12vh;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    color: #716968;
+    font-size: 0.8rem;
+}
+
+.bottom-first{
+    padding: 0.8rem 0 0.4rem 2rem;
+    border: #E4E4E4 1px solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottom-second{
+    padding: 0.8rem 0 0.8rem 2rem;
+}
+
+.bottom-section .bottom-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-second-left ul, .bottom-second-right ul{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #716968;
+    font-size: 0.8rem;
+}
+
+.bottom-second-left ul li, .bottom-second-right ul li{
+    margin-right: 1.5rem;
+}
+
+.bottom-second-left ul li:hover, .bottom-second-right ul li:hover{
+    cursor: pointer;
+    text-decoration: underline  ;
+}
+
+/*****X***** Bottom Section *****X*****/
